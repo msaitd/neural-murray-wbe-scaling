@@ -45,9 +45,6 @@ with post hoc substitutes.
 ```text
 README.md                                      Study overview and reproduction guide.
 LICENSE                                        MIT license for code only.
-CITATION.cff                                   GitHub citation metadata.
-REPOSITORY_METADATA.md                         Proposed GitHub name, title, description, and topics.
-DATA_ACCESS.md                                 ADNI access and non-redistribution boundary.
 validate_release.py                            Code-only and path/identifier safety audit.
 adni_inventory.py                              Match an authorized metadata export to local NIfTI files.
 adni_build_subject_splits.py                   Deterministic participant-level baseline split.
@@ -56,12 +53,7 @@ adni_build_5fold_manifests.py                  Participant-stratified five-fold 
 adni_build_cv_v2_manifests.py                  Frozen three-visit v4 fold manifests.
 adni_validate_3d.py                            Baseline 3D materialization audit.
 adni_validate_longitudinal.py                  Longitudinal materialization audit.
-run_adni_resnet3d18_pipeline.ps1               V4-only preflight, smoke, training, and audit runner.
-run_adni_resnet3d18_cv_v4_phase3_recovery.ps1  Frozen Phase-3 recovery route.
-run_adni_resnet3d18_cv_v4_phase4.ps1           Atomic outer-test release and analysis.
-run_adni_resnet3d18_cv_v4_paired_rtx5070.ps1   Fresh-process paired latency benchmark.
 matlab/                                        Allocator, 3D ResNet, training, audit, and analysis code.
-docs/LOCKED_RESULTS_SUMMARY.md                  Publication-safe aggregate result summary.
 ADNI_NMA_CV_V4_*.md                            Immutable locked protocol documents.
 ```
 
@@ -213,8 +205,7 @@ train-allocate-fine-tune loop.
 > Dündar, M. S. (2026). *Neural Murray-WBE scaling: forward-backward transport laws for
 > resource-constrained deep neural architectures.* Manuscript in preparation.
 
-The citation will be updated with the journal and DOI after publication. GitHub can also generate a
-software citation from [`CITATION.cff`](CITATION.cff).
+The citation will be updated with the journal and DOI after publication.
 
 ## License
 
