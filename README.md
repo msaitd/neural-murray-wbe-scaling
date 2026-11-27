@@ -26,6 +26,8 @@ workflow.
 participant manifests, predictions, derived participant-level tables, checkpoints, trained weights,
 or raw timing matrices.**
 
+The aggregate results and verification scripts for the revised manuscript are packaged separately in `Supplementary_Evidence.zip`. This archive is not hosted in this repository.
+
 The magnetic resonance images and metadata used in the paper are controlled-access data from the
 [Alzheimer's Disease Neuroimaging Initiative](https://adni.loni.usc.edu/). Qualified researchers must
 obtain their own authorization through the LONI Image and Data Archive and comply with the current

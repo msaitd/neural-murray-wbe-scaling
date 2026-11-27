@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated manuscript and this repository."
+title: "Neural Murray-WBE scaling"
+type: software
+authors:
+  - family-names: "Dündar"
+    given-names: "Mehmet Sait"
+    orcid: "https://orcid.org/0000-0002-0336-4825"
+repository-code: "https://github.com/msaitd/neural-murray-wbe-scaling"
+url: "https://github.com/msaitd/neural-murray-wbe-scaling"
+license: MIT
+version: 1.0.0
+date-released: 2026-08-10
+keywords:
+  - neural architecture
+  - model compression
+  - resource-aware deep learning
+  - Murray's law
+  - allometric scaling
+  - 3D ResNet
+  - MATLAB
